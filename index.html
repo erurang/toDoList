@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="wrap">
@@ -14,8 +15,27 @@
                 <span class="weather">weather</span>
             </div>
         </header>
+        <main>
+            <div>
+                <form class="name-form">
+                    <input type="text" placeholder="이름을 적어주세요." />
+                </form>
+                <span class="hi"></span>
+            </div>
+            <div>
+                <form class="todo-form">
+                    <input type="text" placeholder="할 일을 적어주세요.">
+                </form>
+                <div class="todo-list">
+                    <div class="do-it">
+                        오늘 해야할 일
+                    </div>
+                </div>
+            </div>
+        </main>  
     </div>
     <script src="src/clock.js"></script>
     <script src="src/name.js"></script>
+    <script src="src/todo.js"></script>
 </body>
 </html>

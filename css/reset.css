@@ -127,3 +127,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    NanumGothic, "돋움", Dotum, sans-serif;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "toDo",
+  "version": "1.0.0",
+  "description": "toDo list",
+  "main": "index.js",
+  "author": "erurang",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7"
+  }
+}

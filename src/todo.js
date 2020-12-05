@@ -72,7 +72,6 @@ function doItRemove(event) {
 }
 function init() {
   loadToDos();
-  console.log(toDos);
 }
 
 init();
